@@ -23,21 +23,25 @@ public class TextInteractable : MonoBehaviour
 
     private bool inCollider;
 
+    public float textSpeed;
+
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         objectHighlight.SetActive(true);
         inCollider = true;
+        StopCoroutine(CheckForButtonPress());
         StartCoroutine(CheckForButtonPress());
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
+        StopCoroutine(CheckForButtonPress());
+        textObject.text = "";
         objectHighlight.SetActive(false);
         inCollider = false;
         dialogueBox.SetActive(false);
         textObject.enabled = dialogueBox.activeInHierarchy;
-        StopCoroutine(CheckForButtonPress());
     }
 
 
@@ -48,9 +52,18 @@ public class TextInteractable : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.Space))
             {
-                textObject.text = text;
                 dialogueBox.SetActive(!dialogueBox.activeInHierarchy);
                 textObject.enabled = dialogueBox.activeInHierarchy;
+                textObject.text = "";
+                for (int i = 0; i < text.Length + 1; i++)
+                {
+                    if (inCollider)
+                    {
+                        textObject.text = text.Substring(0, i);
+                        yield return new WaitForSeconds(textSpeed);
+                    }
+                    else break;
+                }
             }
 
             yield return null;

@@ -2756,6 +2756,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 769814087881777370, guid: 7d90f51b1444aa046a137b2c8accd13f, type: 3}
+      propertyPath: m_SpriteTilingProperty.drawMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 769814087881777370, guid: 7d90f51b1444aa046a137b2c8accd13f, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 769814087881777370, guid: 7d90f51b1444aa046a137b2c8accd13f, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 769814087881777370, guid: 7d90f51b1444aa046a137b2c8accd13f, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 0.64
+      objectReference: {fileID: 0}
+    - target: {fileID: 769814087881777370, guid: 7d90f51b1444aa046a137b2c8accd13f, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.8
+      objectReference: {fileID: 0}
     - target: {fileID: 5143775357548160407, guid: 7d90f51b1444aa046a137b2c8accd13f, type: 3}
       propertyPath: m_Name
       value: Interactable
@@ -2827,6 +2847,14 @@ PrefabInstance:
     - target: {fileID: 8384837313735523396, guid: 7d90f51b1444aa046a137b2c8accd13f, type: 3}
       propertyPath: text
       value: A Bookshelf...
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793384920650396744, guid: 7d90f51b1444aa046a137b2c8accd13f, type: 3}
+      propertyPath: text
+      value: A Bookshelf. Wow so cool...
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793384920650396744, guid: 7d90f51b1444aa046a137b2c8accd13f, type: 3}
+      propertyPath: textSpeed
+      value: 0.04
       objectReference: {fileID: 0}
     - target: {fileID: 8793384920650396744, guid: 7d90f51b1444aa046a137b2c8accd13f, type: 3}
       propertyPath: textObject
