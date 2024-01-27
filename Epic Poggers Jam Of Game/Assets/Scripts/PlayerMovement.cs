@@ -6,11 +6,6 @@ public class PlayerMovement : MonoBehaviour
 {
     public float movespeed;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        movespeed = 5;
-    }
 
     // Update is called once per frame
     void FixedUpdate()

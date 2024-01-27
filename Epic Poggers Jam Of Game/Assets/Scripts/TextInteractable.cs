@@ -48,8 +48,9 @@ public class TextInteractable : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.Space))
             {
-                dialogueBox.SetActive(!dialogueBox.activeInHierarchy);
                 textObject.text = text;
+                dialogueBox.SetActive(!dialogueBox.activeInHierarchy);
+                textObject.enabled = !textObject.enabled;
             }
 
             yield return null;
