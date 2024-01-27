@@ -36,7 +36,7 @@ public class TextInteractable : MonoBehaviour
         objectHighlight.SetActive(false);
         inCollider = false;
         dialogueBox.SetActive(false);
-        textObject.text = "";
+        textObject.enabled = dialogueBox.activeInHierarchy;
         StopCoroutine(CheckForButtonPress());
     }
 
@@ -50,7 +50,7 @@ public class TextInteractable : MonoBehaviour
             {
                 textObject.text = text;
                 dialogueBox.SetActive(!dialogueBox.activeInHierarchy);
-                textObject.enabled = !textObject.enabled;
+                textObject.enabled = dialogueBox.activeInHierarchy;
             }
 
             yield return null;
