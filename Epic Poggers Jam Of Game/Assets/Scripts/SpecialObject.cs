@@ -6,7 +6,6 @@ using UnityEngine;
 
 public class SpecialObject : MonoBehaviour
 {
-    public GameManage gameManager;
 
     public bool toggle = false;
 
@@ -57,7 +56,7 @@ public class SpecialObject : MonoBehaviour
 
     private void TurnOff()
     {
-        spriteRenderer.enabled = !spriteRenderer.enabled;
-        boxCollider.enabled = !boxCollider.enabled;
+        spriteRenderer.enabled = false;
+        boxCollider.enabled = !spriteRenderer.enabled;
     }
 }

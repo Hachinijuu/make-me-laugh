@@ -6,14 +6,12 @@ using static Unity.VisualScripting.StickyNote;
 
 public class TextInteractable : MonoBehaviour
 {
-    [SerializeField]
-    private GameObject dialogueBox;
+    public GameObject dialogueBox;
 
     [SerializeField]
     private string text;
 
-    [SerializeField]
-    private TextMeshProUGUI textObject;
+    public TextMeshProUGUI textObject;
 
     [SerializeField]
     private GameObject objectHighlight;

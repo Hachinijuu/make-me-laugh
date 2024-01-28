@@ -7,8 +7,6 @@ using static GameManage;
 
 public class PressButton : MonoBehaviour
 {
-
-    public GameManage gameManager;
     public UnityEvent<Colour, bool> OnButtonPress;
 
     public Colour colourEnum;
@@ -16,16 +14,20 @@ public class PressButton : MonoBehaviour
 
     private bool inCollider;
 
+    public GameObject highlightObject;
+
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         inCollider = true;
+        highlightObject.SetActive(true);
         StartCoroutine(CheckForButtonPress());
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
         inCollider = false;
+        highlightObject.SetActive(false);
         StopCoroutine(CheckForButtonPress());
     }
 
