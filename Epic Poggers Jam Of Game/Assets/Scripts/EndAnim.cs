@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class EndAnim : MonoBehaviour
 {
@@ -31,7 +32,17 @@ public class EndAnim : MonoBehaviour
     private IEnumerator EndAnimation()
     {
         Debug.Log("Started Anim");
-        yield return new WaitForSeconds(15);
+        if (bookTracker.jokebookCount == 0)
+            yield return new WaitForSeconds(3);
+
+        if (bookTracker.jokebookCount == 1)
+            yield return new WaitForSeconds(4);
+
+        else if (bookTracker.jokebookCount == 2)
+            yield return new WaitForSeconds(5);
+
+        else if (bookTracker.jokebookCount == 3)
+            yield return new WaitForSeconds(6);
 
         if (bookTracker.jokebookCount == 3)
             outcomeText.text = "Congrats! You are funny again!";
@@ -41,13 +52,18 @@ public class EndAnim : MonoBehaviour
 
         animator.SetBool("doAnim", true);
 
+        yield return new WaitForSeconds(3);
+
+        SceneManager.LoadScene(0);
+        bookTracker.jokebookCount = 0;
+
     }
 
     private IEnumerator CountUpAnim()
     {
-        for(int i = 0; i < bookTracker.jokebookCount; i++)
+        for (int i = 0; i < bookTracker.jokebookCount + 1; i++)
         {
-            yield return new WaitForSeconds(3);
+            yield return new WaitForSeconds(1);
             jokeBookCountText.text = i.ToString() + "/3";
         }
 

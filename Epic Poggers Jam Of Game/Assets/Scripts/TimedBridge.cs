@@ -9,7 +9,7 @@ public class TimedBridge : MonoBehaviour
     [SerializeField]
     private int timer;
 
-    public TextMeshProUGUI bridgeCounter;
+
 
     public void startBridge()
     {
@@ -22,12 +22,10 @@ public class TimedBridge : MonoBehaviour
     {
         gameObject.GetComponent<SpriteRenderer>().enabled = true;
         gameObject.GetComponent<BoxCollider2D>().enabled = false;
-        bridgeCounter.enabled = true;
         yield return new WaitForSeconds(timer);
         Debug.Log("Done Timer");
         gameObject.GetComponent<SpriteRenderer>().enabled = false;
         gameObject.GetComponent<BoxCollider2D>().enabled = true;
-        bridgeCounter.enabled = false;
     }
 
     public IEnumerator updateTimer()
@@ -35,7 +33,7 @@ public class TimedBridge : MonoBehaviour
 
         for(int i = timer; i > 0; i--)
         {
-            bridgeCounter.text = i.ToString();
+
             yield return new WaitForSeconds(1);
         }
 

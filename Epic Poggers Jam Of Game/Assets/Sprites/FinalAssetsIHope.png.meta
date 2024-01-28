@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 3d63863e99f72704d9a376e40423ae52
+guid: d4f7f9ec239a6a64e8f4ba0e4f584c21
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,11 +110,95 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Bookshelf
+      name: Pattern2
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 80
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c4c796f7f549fa40bfc251783e8b9f9
+      internalID: -1732714851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintingBig
       rect:
         serializedVersion: 2
         x: 0
-        y: 280
+        y: 137
+        width: 48
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46c11296ce6a29c4f889d5ffe0701e01
+      internalID: -341650523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintingMid
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 169
+        width: 36
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffcaef6934afbf84e9afbc3b2021acac
+      internalID: 1002546196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalAssetsIHope_0
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 144
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4797024b6ecd4004f898f0af9f05f8c6
+      internalID: -1052811800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelf2
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 216
         width: 32
         height: 40
       alignment: 0
@@ -124,20 +208,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 27bd41d9a41c1fc4b9997c8775928deb
-      internalID: -1987910776
+      spriteID: 0c53b236b442ae64f9c6cd8d1deed7c7
+      internalID: 1425038081
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wall
+      name: Bookshelf3
       rect:
         serializedVersion: 2
-        x: 32
-        y: 272
+        x: 208
+        y: 216
         width: 32
-        height: 48
+        height: 40
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,17 +229,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e844e5c41e28c5b45ad995f8cdc4c295
-      internalID: -433525334
+      spriteID: b64e2b63687e2a0418544e292eef188e
+      internalID: -877709914
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PillowWall
+      name: WallCorner
       rect:
         serializedVersion: 2
-        x: 64
+        x: 208
         y: 288
         width: 32
         height: 32
@@ -166,18 +250,186 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 19afbf70917a73641b4cc86b3e9c669a
-      internalID: -367298846
+      spriteID: 0613accb75e372e4db2c20306ab44925
+      internalID: 470485336
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PillowStickingOut
+      name: WallRail
       rect:
         serializedVersion: 2
-        x: 96
+        x: 208
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82712d7c5187d5a498cf96816d2b6fc5
+      internalID: 117582950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cards
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 169
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b8369c38883e7e40b1b75408d6be7a3
+      internalID: -490081911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Calendar
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ee3b48dfa535d44dbba69de062beb1b
+      internalID: 1462241070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pot
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 160
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d518bc8893c62284b806cc4055c17ad0
+      internalID: -1734439718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BroomShadow
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 106
+        width: 17
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c52520cc1f215149a567361ee58d3af
+      internalID: 984021066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 96
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1b0c482ac46fc24da60a95a8b0e28da
+      internalID: -836135895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoorVoid
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 96
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92874f3b04c92b24b80e88885647e458
+      internalID: 595395447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallTopU
+      rect:
+        serializedVersion: 2
+        x: 176
         y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92f69c96a08181645aaa620c48050f62
+      internalID: 473611578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RailSide
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 256
         width: 16
         height: 32
       alignment: 0
@@ -187,20 +439,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 644d1c90016d02e4ba453ee6cac60982
-      internalID: 1548778469
+      spriteID: b099c8f53dc4fc5438b913c1042b5764
+      internalID: -2099664605
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PillowFloorLow
+      name: BookGreen
       rect:
         serializedVersion: 2
-        x: 96
-        y: 272
-        width: 16
-        height: 16
+        x: 176
+        y: 201
+        width: 8
+        height: 8
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,20 +460,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 795e25ab1f98e644d84caf5cbaac1e55
-      internalID: -1070648264
+      spriteID: 820c4e0a5960fcc4f87de4aa6a986728
+      internalID: 539467992
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PillowFloorMid
+      name: BookBlue
       rect:
         serializedVersion: 2
-        x: 80
-        y: 272
-        width: 16
-        height: 16
+        x: 184
+        y: 201
+        width: 8
+        height: 8
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -229,20 +481,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5dda78b96c0b1cb45b93d86c74ff00a3
-      internalID: 727360065
+      spriteID: 8297e3b72ec81a44e89b539220a526c7
+      internalID: 36376958
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PillowFloorTop
+      name: BookRed
       rect:
         serializedVersion: 2
-        x: 64
-        y: 272
-        width: 16
-        height: 16
+        x: 176
+        y: 192
+        width: 8
+        height: 8
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -250,20 +502,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4fb80d33746b24940abd53592a1aa70f
-      internalID: -1292512871
+      spriteID: 360e23fca5ff69f4d81a34e135c4e099
+      internalID: -1144234505
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BookStack2
+      name: BookYellow
       rect:
         serializedVersion: 2
-        x: 145
-        y: 272
-        width: 14
-        height: 15
+        x: 184
+        y: 192
+        width: 8
+        height: 8
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -271,14 +523,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 19ba0ce601bf9114d8db59a59ca57511
-      internalID: 1861246429
+      spriteID: 2844ec46066ea2546afe3fa4731fb8ab
+      internalID: 1020918067
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Clownd_Tileset_AmazingGameJam_0
+      name: BookPile1
       rect:
         serializedVersion: 2
         x: 129
@@ -292,20 +544,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bbb68b2a959501643b6ac988727b4627
-      internalID: 1060180382
+      spriteID: 3e68208a7cc87bc4ab61e78a1cce92b5
+      internalID: -1111637261
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BookPUrple
+      name: BookPile2
       rect:
         serializedVersion: 2
-        x: 113
-        y: 274
+        x: 145
+        y: 272
         width: 14
-        height: 13
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -313,460 +565,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 127dd1b076fbdae42bf4a841d28761ad
-      internalID: 1885160861
+      spriteID: 4364cf541693c8e47a73e202e8e4abbf
+      internalID: -1244391584
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AsylumDoor
+      name: FinalAssetsIHope_1
       rect:
         serializedVersion: 2
-        x: 112
-        y: 288
-        width: 26
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bd6f66fb27e831f468b89593868477f4
-      internalID: -503315413
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FloorTiles1
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 208
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8b0befff2b6a66049bdf372b2f5ddfad
-      internalID: 1776252141
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FloorTiles2
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 208
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 526623205f5769c44a04807504977cd2
-      internalID: -1361539616
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FloorTiles3
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 144
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 26063414c46adac438c41c26f94465db
-      internalID: 1490067590
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Table
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 169
-        width: 32
-        height: 39
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 701e5bf6ef3854f4bb3d151f03b00e27
-      internalID: -1769356510
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ChairSide
-      rect:
-        serializedVersion: 2
-        x: 146
-        y: 187
-        width: 12
-        height: 19
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 77be51d642102e944881f4b6f350ba8a
-      internalID: 1183285764
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ChairFront
-      rect:
-        serializedVersion: 2
-        x: 163
-        y: 187
-        width: 10
-        height: 19
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2e05533c4ff9e6842877a4e78817745c
-      internalID: -1694933844
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BookGreen
-      rect:
-        serializedVersion: 2
-        x: 176
-        y: 201
-        width: 8
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b8f43c4adced74a40827bd030825cb4c
-      internalID: 716163218
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BookBlue
-      rect:
-        serializedVersion: 2
-        x: 184
-        y: 201
-        width: 8
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 01b341d14f9015d4eaa45b7f12a19daa
-      internalID: 1441157651
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BookRed
-      rect:
-        serializedVersion: 2
-        x: 176
-        y: 194
-        width: 8
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b2c92afc5481589439171517c8712414
-      internalID: -867458127
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mug1
-      rect:
-        serializedVersion: 2
-        x: 195
-        y: 178
-        width: 13
-        height: 11
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 760541152bbb6f44b88268e35a541635
-      internalID: 2128178627
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Papers_Deco
-      rect:
-        serializedVersion: 2
-        x: 178
-        y: 178
-        width: 11
-        height: 11
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d14c865e990472b42a05cb651b96b0b1
-      internalID: 1349997547
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Button_Quack
-      rect:
-        serializedVersion: 2
-        x: 113
-        y: 154
-        width: 15
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7fc43bf2682900348afecbc44858358c
-      internalID: -1142070263
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Outline_Quack
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 137
+        x: 210
+        y: 290
         width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1836b30075545e84398fc52cebeb6fb0
-      internalID: 1678593075
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ButtonCushion
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 153
-        width: 16
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7dbb3fb327d739e4889c00153ebfdc1c
-      internalID: -447372662
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: OutlineCushion
-      rect:
-        serializedVersion: 2
-        x: 143
-        y: 136
-        width: 18
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fc797aec0134a0b4c8ad2b72c3427cae
-      internalID: -1181109501
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElevatorFrame
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 224
-        width: 48
-        height: 48
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6e263ab1d9fc35f40a4dd81cbc41fcca
-      internalID: -1120033024
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElevatorDoorL
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 288
-        width: 12
-        height: 31
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5d1710e7e1a4d47419be33876c44f89f
-      internalID: 1426278188
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElevatorDoorR
-      rect:
-        serializedVersion: 2
-        x: 156
-        y: 288
-        width: 12
-        height: 31
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 79e69500a79b8a548b2c7279a9d9413a
-      internalID: -303545093
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: WallTop
-      rect:
-        serializedVersion: 2
-        x: 176
-        y: 288
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8a5fbe9060abce944acf5842aa6cc90f
-      internalID: -1096257600
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: WallExtension
-      rect:
-        serializedVersion: 2
-        x: 176
-        y: 256
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 66a6603105f1f8d4196704023186b3f0
-      internalID: -599853288
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: WallTopExtension
-      rect:
-        serializedVersion: 2
-        x: 176
-        y: 304
-        width: 32
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -775,8 +586,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3052056a2b7da9942a0e064c440365eb
-      internalID: -1396793005
+      spriteID: ea10ee3ba591eac4eb151ec3b5c58b27
+      internalID: 1901446241
       vertices: []
       indices: 
       edges: []
@@ -792,38 +603,29 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      AsylumDoor: -503315413
-      BookBlue: 1441157651
-      BookGreen: 716163218
-      BookPUrple: 1885160861
-      BookRed: -867458127
-      BookStack2: 1861246429
-      Bookshelf: -1987910776
-      ButtonCushion: -447372662
-      Button_Quack: -1142070263
-      ChairFront: -1694933844
-      ChairSide: 1183285764
-      Clownd_Tileset_AmazingGameJam_0: 1060180382
-      ElevatorDoorL: 1426278188
-      ElevatorDoorR: -303545093
-      ElevatorFrame: -1120033024
-      FloorTiles1: 1776252141
-      FloorTiles2: -1361539616
-      FloorTiles3: 1490067590
-      Mug1: 2128178627
-      OutlineCushion: -1181109501
-      Outline_Quack: 1678593075
-      Papers_Deco: 1349997547
-      PillowFloorLow: -1070648264
-      PillowFloorMid: 727360065
-      PillowFloorTop: -1292512871
-      PillowStickingOut: 1548778469
-      PillowWall: -367298846
-      Table: -1769356510
-      Wall: -433525334
-      WallExtension: -599853288
-      WallTop: -1096257600
-      WallTopExtension: -1396793005
+      BookBlue: 36376958
+      BookGreen: 539467992
+      BookPile1: -1111637261
+      BookPile2: -1244391584
+      BookRed: -1144234505
+      BookShelf2: 1425038081
+      BookYellow: 1020918067
+      Bookshelf3: -877709914
+      BroomShadow: 984021066
+      Calendar: 1462241070
+      Cards: -490081911
+      Door: -836135895
+      DoorVoid: 595395447
+      FinalAssetsIHope_0: -1052811800
+      FinalAssetsIHope_1: 1901446241
+      PaintingBig: -341650523
+      PaintingMid: 1002546196
+      Pattern2: -1732714851
+      Pot: -1734439718
+      RailSide: -2099664605
+      WallCorner: 470485336
+      WallRail: 117582950
+      WallTopU: 473611578
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
