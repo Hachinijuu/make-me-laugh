@@ -2,14 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GameManage : MonoBehaviour
+public class JokebookTracker : MonoBehaviour
 {
-
-    public enum Colour { red, blue, green }
+    public int jokebookCount;
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
-        
+        DontDestroyOnLoad(gameObject);
     }
 
     // Update is called once per frame

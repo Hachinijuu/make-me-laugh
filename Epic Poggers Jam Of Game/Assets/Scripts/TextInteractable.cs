@@ -7,6 +7,7 @@ using static Unity.VisualScripting.StickyNote;
 public class TextInteractable : MonoBehaviour
 {
     public GameObject dialogueBox;
+    public JokebookTracker bookTracker;
 
     [SerializeField]
     private string text;
@@ -16,12 +17,19 @@ public class TextInteractable : MonoBehaviour
     [SerializeField]
     private GameObject objectHighlight;
     // Start is called before the first frame update
+    private void Start()
+    {
+        bookTracker = GameObject.Find("ObjectiveTracker").GetComponent<JokebookTracker>();
+    }
 
 
 
     private bool inCollider;
 
     public float textSpeed;
+
+    [SerializeField]
+    public bool giveCollectable;
 
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -53,6 +61,11 @@ public class TextInteractable : MonoBehaviour
                 dialogueBox.SetActive(!dialogueBox.activeInHierarchy);
                 textObject.enabled = dialogueBox.activeInHierarchy;
                 textObject.text = "";
+                if (giveCollectable)
+                {
+                    bookTracker.jokebookCount++;
+                    giveCollectable = false;
+                }
                 for (int i = 0; i < text.Length + 1; i++)
                 {
                     if (inCollider)

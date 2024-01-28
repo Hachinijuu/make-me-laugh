@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using static GameManage;
 using UnityEngine.Events;
 using static Unity.VisualScripting.StickyNote;
 
